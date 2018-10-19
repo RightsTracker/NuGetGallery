@@ -87,6 +87,7 @@ namespace NuGetGallery
         internal const string NuGetProtocolHeaderName = "X-NuGet-Protocol-Version";
         internal const string WarningHeaderName = "X-NuGet-Warning";
         internal const string UserAgentHeaderName = "User-Agent";
+        internal const string CustomQueryHeaderName = "X-NuGet-CustomQuery";
 
         public static readonly string ReturnUrlParameterName = "ReturnUrl";
         public static readonly string CurrentUserOwinEnvironmentKey = "nuget.user";
